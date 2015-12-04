@@ -5,8 +5,8 @@ function testPromise () {
   log.innerHTML = "<code>Promise<code> is supported! YAY!";
 }
 if ("Promise" in window) {
-  var btn = document.getElementById("btn");
-   btn.addEventListener("click",testPromise);
+  var testbtn = document.getElementById("btn");
+   testbtn.addEventListener("click",testPromise);
 }
 else {
   log = document.getElementById('log');
